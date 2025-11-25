@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "imt2023010/calculator-app:jenkins"
+        IMAGE = "d3monviking/imt2023010_calculator-app:jenkins"
         VENV = ".venv"
         PYTHON = "/usr/bin/python3" 
     }
